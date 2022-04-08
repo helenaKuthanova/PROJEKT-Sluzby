@@ -1,0 +1,99 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.stranka {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    padding-top: 60px;
+}
+
+.hero {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+#turista {
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline solid #407BFF 3px;
+    margin-top: 40px;
+}
+
+.text {
+    max-width: 460px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.tlacitko {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 11px 30px;
+    border-radius: 20px;
+}
+
+.dobrodruzstvi {
+    background-color: #407BFF;
+    width: 195px;
+}
+
+.pohoda {
+    background-color: #8B8B8B;
+    width: 220px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.poutak {
+    font-size: 13px;
+    color: #8B8B8B;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 460px;
+    margin: 30px auto;
+    display: flex;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+}
+
+.ikona {
+    flex: 1 1 20%;
+    max-width: 45px;
+}
+
+.ikona img {
+    width: 100%;
+}
+
+.vykrik {
+    flex: 1 1 80%;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    text-align: left;
+}
+
+@media screen and (min-width: 640px) {
+
+}
