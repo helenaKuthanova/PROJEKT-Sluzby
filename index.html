@@ -3,58 +3,67 @@
     <meta lang="cs">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Raleway:wght@400;800&display=swap" rel="stylesheet">
     <title>Happy Travels</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="stranka">
-        <section class="hero">
-            <img src="images/happy-traveler.svg" id="turista" alt="turista">
-        </section>
+        <div class="hero">
+            <section class="obrazek">
+                <img src="images/happy-traveler.svg" id="turista" alt="turista">
+            </section>
 
-        <section>
-            <h1>Happy Travels</h1>
+            <section>
+                <h1>Happy Travels</h1>
 
-            <p class="text">
-                Specializujeme se na exotické destinace a výjimečné zážitkové pobyty. S námi se nikdy nudit nebudete. Ať už chcete zažít pořádný adrenalin nebo se jen opalovat na pláži.
-            </p>
+                <p class="text">
+                    Specializujeme se na exotické destinace a výjimečné zážitkové pobyty. S námi se nikdy nudit nebudete. Ať už chcete zažít pořádný adrenalin nebo se jen opalovat na pláži.
+                </p>
 
-            <button class="tlacitko dobrodruzstvi">Chci dobrodružství</button>
-            <button class="tlacitko pohoda">Raději pohodu na pláži</button>
-        </section>
+                <div class="kontejner-tlacitka">
+                    <button class="tlacitko dobrodruzstvi">Chci dobrodružství</button>
+                    <button class="tlacitko pohoda">Raději pohodu na pláži</button>
+                </div>
+            </section>
+        </div>
 
-        <section>
+        <section class="sluzby">
             <h2>Služby naší cestovní kanceláře</h2>
 
             <p class="text">
                 Pomůžeme vám naplánovat vaši vysněnou dovolenou. Vybereme zajímavou destinaci a zajistíme pro vás vše od ubtování až po letenky.
             </p>
 
-            <div class="poutak">
-                <div class="ikona">
-                    <img src="images/map-icon.svg" id="mapa" alt="ikona-mapa">
+            <div class="kontejner-poutaky">
+                <div class="poutak">
+                    <div class="ikona">
+                        <img src="images/map-icon.svg" id="mapa" alt="ikona-mapa">
+                    </div>
+                    <div class="vykrik">
+                        <p>Naplánujeme zájezdy a výlety do celého světa.</p>
+                    </div>
                 </div>
-                <div class="vykrik">
-                    <p>Naplánujeme zájezdy a výlety do celého světa.</p>
+                
+                <div class="poutak">
+                    <div class="ikona">
+                        <img src="images/cactus-icon.svg" id="kaktus" alt="kaktus-ikona">
+                    </div>
+                    <div class="vykrik">
+                        <p>Zajistíme exotické destinace a zážitkové pobyty.</p>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="poutak">
-                <div class="ikona">
-                    <img src="images/cactus-icon.svg" id="kaktus" alt="kaktus-ikona">
-                </div>
-                <div class="vykrik">
-                    <p>Zajistíme exotické destinace a zážitkové pobyty.</p>
-                </div>
-            </div>
 
-            <div class="poutak">
-                <div class="ikona">
-                    <img src="images/plane-icon.svg" id="letadlo" alt="ikona-letadlo">
-                </div>
-                <div class="vykrik">
-                    <p>Seženeme nejlevnější letenky v daném termínu.</p>
+                <div class="poutak vpravo">
+                    <div class="ikona">
+                        <img src="images/plane-icon.svg" id="letadlo" alt="ikona-letadlo">
+                    </div>
+                    <div class="vykrik">
+                        <p>Seženeme nejlevnější letenky v daném termínu.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -67,30 +76,32 @@
             </p>
         </section>
         
-        <div class="poutak">
-            <div class="ikona">
-                <img src="images/palm-icon.svg" id="palma" alt="ikona-palma">
+        <div class="kontejner-poutaky">
+            <div class="poutak">
+                <div class="ikona">
+                    <img src="images/palm-icon.svg" id="palma" alt="ikona-palma">
+                </div>
+                <div class="vykrik">
+                    <p>Doporučíme ty nejhezčí destinace pro výlety.</p>
+                </div>
             </div>
-            <div class="vykrik">
-                <p>Doporučíme ty nejhezčí destinace pro výlety.</p>
+            
+            <div class="poutak">
+                <div class="ikona">
+                    <img src="images/umbrella-icon.svg" id="slunecnik" alt="slunecnik-ikona">
+                </div>
+                <div class="vykrik">
+                    <p>Objednáme slunečníky a plážová lehátka.</p>
+                </div>
             </div>
-        </div>
-        
-        <div class="poutak">
-            <div class="ikona">
-                <img src="images/umbrella-icon.svg" id="slunecnik" alt="slunecnik-ikona">
-            </div>
-            <div class="vykrik">
-                <p>Objednáme slunečníky a plážová lehátka.</p>
-            </div>
-        </div>
 
-        <div class="poutak">
-            <div class="ikona">
-                <img src="images/rv-icon.svg" id="karavan" alt="karavan-ikona">
-            </div>
-            <div class="vykrik">
-                <p>Pronajmeme karavan nebo vůz na cestování.</p>
+            <div class="poutak vpravo">
+                <div class="ikona">
+                    <img src="images/rv-icon.svg" id="karavan" alt="karavan-ikona">
+                </div>
+                <div class="vykrik">
+                    <p>Pronajmeme karavan nebo vůz na cestování.</p>
+                </div>
             </div>
         </div>
 

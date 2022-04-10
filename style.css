@@ -9,10 +9,10 @@ body {
     max-width: 500px;
     margin: 0 auto;
     background-color: #fafafa;
-    padding-top: 60px 75px 60px 75px;
+    padding-top: 60px;
 }
 
-.hero {
+.obrazek {
     max-width: 350px;
     margin: 0 auto;
 }
@@ -23,6 +23,7 @@ body {
 
 h1 {
     font-size: 28px;
+    font-family: "Montserrat";
     text-align: center;
     text-decoration: underline solid #407BFF 3px;
     margin-top: 40px;
@@ -33,6 +34,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     line-height: 1.5em;
+    font-weight: 300;
     font-size: 16px;
     color: #8B8B8B;
 }
@@ -41,6 +43,7 @@ h1 {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+    font-weight: normal;
     font-size: 14px;
     color: white;
     text-align: center;
@@ -61,7 +64,6 @@ h1 {
 .pohoda {
     background-color: #8B8B8B;
     width: 220px;
-    margin-top: 15px;
 }
 
 .pohoda:hover {
@@ -69,6 +71,7 @@ h1 {
 }
 
 h2 {
+    font-weight: medium;
     font-size: 16px;
     text-align: center;
     margin-top: 50px;
@@ -104,5 +107,94 @@ h2 {
 }
 
 @media screen and (min-width: 640px) {
+    .stranka {
+        background-color: #fafafa;
+        max-width: 760px;
+        padding-top: 60px;
+    }
 
+    .text {
+        max-width: 550px;
+    }
+
+    .obrazek {
+        max-width: 400px;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    .tlacitko {
+        display: inline;
+    }
+
+    .kontejner-tlacitka {
+        max-width: 465px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .dobrodruzstvi {
+        margin-right: 20px;
+    }
+
+    h2 {
+        margin-top: 60px;
+    }
+
+    .kontejner-poutaky {
+        display: flex;
+    }
+
+    .poutak {
+        flex: 1 1 calc(100% / 3);
+        margin-left: 20px;
+        max-width: 230px;
+        height: 172px;
+        display: block;
+        padding: 40px 15px 20px 15px;
+    }
+
+    .vpravo {
+        margin-right: 20px;
+    }
+
+    .ikona {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .vykrik {
+        text-align: center;
+        padding: 0;
+    }
+    
+
+
+}
+
+@media screen and (min-width: 1100px) {
+    .stranka {
+        background-color: aquamarine;
+        max-width: 1200px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .hero .text {
+        text-align: left;
+    }
+
+    .kontejner-tlacitka {
+        margin: 0;
+    }
 }
