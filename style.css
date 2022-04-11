@@ -25,8 +25,13 @@ h1 {
     font-size: 28px;
     font-family: "Montserrat";
     text-align: center;
-    text-decoration: underline solid #407BFF 3px;
     margin-top: 40px;
+}
+
+.podtrzeni {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #407BFF;
 }
 
 .text {
@@ -170,15 +175,13 @@ h2 {
         text-align: center;
         padding: 0;
     }
-    
-
-
 }
 
 @media screen and (min-width: 1100px) {
     .stranka {
-        background-color: aquamarine;
+        background-color: #fafafa;
         max-width: 1200px;
+        padding: 60px 80px 60px 80px;
     }
 
     .hero {
@@ -196,5 +199,33 @@ h2 {
 
     .kontejner-tlacitka {
         margin: 0;
+    }
+
+    .kontejner-horni,
+    .kontejner-dolni {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .kontejner-horni {
+        flex-direction: row-reverse;
+        margin-top: 50px;
+    }
+    
+    .kontejner-horni .poutak {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .kontejner-horni .vpravo {
+        margin-right: 60px;
+    }
+
+    .kontejner-dolni .vpravo {
+        margin-right: 0;
+    }
+
+    .kontejner-dolni .vlevo {
+        margin-left: 60px;
     }
 }
